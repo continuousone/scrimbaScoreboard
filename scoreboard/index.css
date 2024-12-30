@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+    text-align:center;
+}
+
+h1{
+    font-size: 6em;
+    margin:0;
+}
+h3{
+    font-size: 2em;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box{
+    background-color: cadetblue;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.score-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.scores{
+    display: flex;
+    border: 1px solid black;
+    width:50px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
